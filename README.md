@@ -1,0 +1,97 @@
+# 🏥 Obesity Level Prediction & Diagnostic Dashboard
+**Researcher & Developer: Pathan MohammadMahir I.**
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg?viewport=width,device-width,initial-scale=1,maximum-scale=1,user-scalable=0)](https://share.streamlit.io/)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+[![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)](https://scikit-learn.org/)
+
+## 📝 Project Abstract
+This repository contains a complete clinical data science pipeline for predicting obesity levels in individuals from **Mexico, Peru, and Colombia**. The project leverages a research dataset (Palechor & Manotas, 2019) to classify individuals into 7 distinct weight categories using advanced Machine Learning algorithms.
+
+The final deliverable is a **Professional Multi-Page Streamlit Dashboard** that provides real-time health assessments with 95% accuracy.
+
+---
+
+## 🎯 Target Health Categories
+- **Insufficient Weight**
+- **Normal Weight**
+- **Overweight Level I & II**
+- **Obesity Type I, II & III**
+
+---
+
+## 🏗️ Technical Architecture & Structure
+The project is organized into a modular structure for easy reproduction and deployment:
+
+```
+obesityPrediction/
+├── app.py                         # Professional Streamlit Dashboard (Main Entry)
+├── ObesityLevelPrediction.ipynb   # Comprehensive Research & Training Notebook
+├── ObesityDataSet.csv             # Clinical Research Dataset (2111 Records)
+├── requirements.txt               # Project Dependencies for Deployment
+├── rf_model.pkl                   # Optimized Random Forest Artifact
+├── xgb_model.pkl                  # High-Performance XGBoost Artifact
+├── target_encoder.pkl             # Label Encoding Mapping
+└── scaler.pkl                     # Standardized Feature Scaler
+```
+
+---
+
+## 🔗 Live Demonstration
+**Access the live dashboard here:**  
+👉 [OBESITY-DIAGNOSTIC-DASHBOARD-LINK-HERE](https://share.streamlit.io/) *(Link to be updated after deployment)*
+
+---
+
+## 🚀 Deployment & Usage Guide
+
+### 1. Launching the Interactive Dashboard
+To run the diagnostic dashboard locally:
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the app
+streamlit run app.py
+```
+
+### 2. Exploring the Research (Jupyter)
+To explore the Exploratory Data Analysis (EDA) and Model Training:
+```bash
+# Launch the notebook
+jupyter notebook ObesityLevelPrediction.ipynb
+```
+
+---
+
+## 🔥 Performance Benchmark
+Our models achieved state-of-the-art performance on the validation dataset:
+
+| Model Metric | Random Forest (Bagging) | XGBoost (Boosting) |
+| :--- | :---: | :---: |
+| **Accuracy Score** | **95.27%** | **95.27%** |
+| **Recall (Weighted)** | **0.95** | **0.95** |
+| **F1-Score (Macro)** | **0.95** | **0.95** |
+| **Precision (Weighted)** | **0.95** | **0.95** |
+
+### 📋 Scientific Findings
+*   **Feature Importance**: Weight, Height, and Age are the three "Anchor Features" for the AI models.
+*   **Lifestyle Impact**: Frequent consumption of high-caloric food (FAVC) and lack of physical activity (FAF) show direct correlations with progressing obesity tiers.
+*   **Balance & Reliability**: The integration of **SMOTE** oversampling ensured that the AI is equally sensitive to all 7 obesity stages, avoiding common "Normal Weight" bias.
+
+---
+
+## 🛠️ Technology Stack
+- **Dashboard**: Streamlit (Multi-page Architecture)
+- **Data Engineering**: Pandas, NumPy
+- **Visualizations**: Matplotlib, Seaborn
+- **Intelligence**: Scikit-Learn (Random Forest), XGBoost
+- **Serialization**: Joblib
+
+---
+
+## 📜 Acknowledgements & License
+- **Dataset**: UCI Machine Learning Repository (Obesity Levels).
+- **License**: MIT Open Source.
+
+**Developed with ❤️ by Pathan MohammadMahir I.**
