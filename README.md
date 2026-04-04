@@ -32,7 +32,8 @@ obesityPrediction/
 ├── rf_model.pkl                   # Optimized Random Forest Artifact
 ├── xgb_model.pkl                  # High-Performance XGBoost Artifact
 ├── target_encoder.pkl             # Label Encoding Mapping
-└── scaler.pkl                     # Standardized Feature Scaler
+├── scaler.pkl                     # Standardized Feature Scaler
+└── LICENSE                        # Project MIT License
 ```
 
 ---
@@ -92,6 +93,6 @@ Our models achieved state-of-the-art performance on the validation dataset:
 
 ## 📜 Acknowledgements & License
 - **Dataset**: UCI Machine Learning Repository (Obesity Levels).
-- **License**: MIT Open Source.
+- **License**: [MIT License](LICENSE)
 
 **Developed with ❤️ by Pathan MohammadMahir I.**
