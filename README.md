@@ -1,14 +1,20 @@
 # 🏥 Obesity Level Prediction & Diagnostic Dashboard
 **Researcher & Developer: Pathan MohammadMahir I.**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg?viewport=width,device-width,initial-scale=1,maximum-scale=1,user-scalable=0)](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
-[![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)](https://scikit-learn.org/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg?style=for-the-badge)](https://www.python.org/downloads/release/python-3120/)
+[![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge)](https://scikit-learn.org/)
 
 ## 📝 Project Abstract
 This repository contains a complete clinical data science pipeline for predicting obesity levels in individuals from **Mexico, Peru, and Colombia**. The project leverages a research dataset (Palechor & Manotas, 2019) to classify individuals into 7 distinct weight categories using advanced Machine Learning algorithms.
 
-The final deliverable is a **Professional Multi-Page Streamlit Dashboard** that provides real-time health assessments with 95% accuracy.
+The final deliverable is a **Professional Multi-Page Streamlit Dashboard** that provides real-time health assessments with over 95% accuracy.
+
+---
+
+## 🔗 Live Demonstration
+**Access the live diagnostic dashboard here:**  
+👉 [HealthGuard AI Dashboard](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
 
 ---
 
@@ -33,14 +39,8 @@ obesityPrediction/
 ├── xgb_model.pkl                  # High-Performance XGBoost Artifact
 ├── target_encoder.pkl             # Label Encoding Mapping
 ├── scaler.pkl                     # Standardized Feature Scaler
-└── LICENSE                        # Project MIT License
+└── LICENSE                        # MIT Project License
 ```
-
----
-
-## 🔗 Live Demonstration
-**Access the live diagnostic dashboard here:**  
-👉 [HealthGuard AI Dashboard](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
 
 ---
 
@@ -65,15 +65,15 @@ jupyter notebook ObesityLevelPrediction.ipynb
 
 ---
 
-## 🔥 Performance Benchmark
+## 🔥 Final Model Performance
 Our models achieved state-of-the-art performance on the validation dataset:
 
-| Model Metric | Random Forest (Bagging) | XGBoost (Boosting) |
+| Model Performance Metric | Random Forest (Bagging) | XGBoost (Boosting) |
 | :--- | :---: | :---: |
 | **Accuracy Score** | **95.27%** | **95.27%** |
-| **Recall (Weighted)** | **0.95** | **0.95** |
-| **F1-Score (Macro)** | **0.95** | **0.95** |
-| **Precision (Weighted)** | **0.95** | **0.95** |
+| **Recall (Weighted)** | **95.27%** | **95.27%** |
+| **F1-Score (Macro)** | **95.12%** | **95.18%** |
+| **Precision (Weighted)** | **95.30%** | **95.34%** |
 
 ### 📋 Scientific Findings
 *   **Feature Importance**: Weight, Height, and Age are the three "Anchor Features" for the AI models.
