@@ -95,4 +95,4 @@ Our models achieved state-of-the-art performance on the validation dataset:
 - **Dataset**: UCI Machine Learning Repository (Obesity Levels).
 - **License**: [MIT License](LICENSE)
 
-**Developed with ❤️ by Pathan MohammadMahir I.**
+**Developed with ❤️ by Mahiri.**
