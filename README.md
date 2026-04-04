@@ -1,7 +1,7 @@
 # 🏥 Obesity Level Prediction & Diagnostic Dashboard
 **Researcher & Developer: Pathan MohammadMahir I.**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg?viewport=width,device-width,initial-scale=1,maximum-scale=1,user-scalable=0)](https://share.streamlit.io/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg?viewport=width,device-width,initial-scale=1,maximum-scale=1,user-scalable=0)](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)](https://scikit-learn.org/)
 
@@ -38,8 +38,8 @@ obesityPrediction/
 ---
 
 ## 🔗 Live Demonstration
-**Access the live dashboard here:**  
-👉 [OBESITY-DIAGNOSTIC-DASHBOARD-LINK-HERE](https://share.streamlit.io/) *(Link to be updated after deployment)*
+**Access the live diagnostic dashboard here:**  
+👉 [HealthGuard AI Dashboard](https://healthguard-digital-obesity-diagnostic-system.streamlit.app/)
 
 ---
 
